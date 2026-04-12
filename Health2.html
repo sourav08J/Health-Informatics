@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Body Meter</title>
+    <link rel="stylesheet" href="Style2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="top-bar">
+        <div class="data-title">Analysis Body Meter Data</div>
+        <div class="icon-container" id="graph-btn">
+            <i class="fa-solid fa-chart-line"></i>
+        </div>
+    </header>
+
+    <div class="search-wrapper">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" id="diseaseSearch" placeholder="Search diseases">
+    </div>
+
+    <div class="symptom-search">
+        <input type="text" id="symptomInput" placeholder="Type symptoms (e.g. chest pain, fever, cough...)" autocomplete="off" />
+        <ul id="suggestionList"></ul>
+    </div>
+
+    <div class="column-grid">
+    
+        <a href="heart.html" class="big-column card-heart">
+            <div class="hover-image-container">
+                <img src="heartt.jpg" alt="Heart Diagram">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-heart-pulse card-icon pulse-anim"></i>
+                <div class="column-label">Heart Related</div>
+                <div class="placeholder-text">Cardiology Analysis</div>
+            </div>
+        </a>
+
+        <a href="blood.html" class="big-column card-blood">
+            <div class="hover-image-container">
+                <img src="blood.jpg" alt="Blood Diagram">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-droplet card-icon float-anim"></i>
+                <div class="column-label">Blood Related</div>
+                <div class="placeholder-text">Hemoglobin & Cells</div>
+            </div>
+        </a>
+
+        <a href="bone.html" class="big-column card-bone">
+            <div class="hover-image-container">
+                <img src="bone.jpg" alt="Bone Diagram">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-bone card-icon shake-anim"></i>
+                <div class="column-label">Bone Related</div>
+                <div class="placeholder-text">Density & Calcium</div>
+            </div>
+        </a>
+
+        <a href="diabetes.html" class="big-column card-diabetes">
+            <div class="hover-image-container">
+                <img src="diabetic.webp" alt="Diabetes Diagram">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-syringe card-icon"></i>
+                <div class="column-label">Diabetes Related</div>
+                <div class="placeholder-text">Glucose & Insulin</div>
+            </div>
+        </a>
+
+        <a href="fever.html" class="big-column card-fever">
+            <div class="hover-image-container">
+                <img src="fever.jpg" alt="Fever Diagram">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-temperature-three-quarters card-icon heat-anim"></i>
+                <div class="column-label">Fever Related</div>
+                <div class="placeholder-text">Body Temperature</div>
+            </div>
+        </a>
+
+        <a href="resp.html" class="big-column card-lungs">
+            <div class="hover-image-container">
+                <img src="respiraory.jpg" alt="Lungs Diagram">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-lungs card-icon breath-anim"></i>
+                <div class="column-label">Respiratory Related</div>
+                <div class="placeholder-text">Lung Capacity</div>
+            </div>
+        </a>
+
+        <div class="big-column card-prescription">
+            
+            <div class="card-default-content">
+                <i class="fa-solid fa-file-medical card-icon bounce-anim"></i>
+                <div class="column-label">Prescription</div>
+                <div class="placeholder-text">Upload to Analyze</div>
+            </div>
+
+            <div class="card-hover-content">
+                <form action="/analyze_prescription" method="POST" enctype="multipart/form-data" id="uploadForm">
+                    
+                    <label class="custom-file-upload" id="uploadLabel">
+                        <input type="file" name="file" id="realFileInput" required accept=".jpg,.png,.jpeg,.pdf">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> <span id="btnText">Choose File</span>
+                    </label>
+                    
+                    <div id="fileInfoContainer" style="display: none;">
+                        <span id="fileNameDisplay">filename.jpg</span>
+                        <i class="fa-solid fa-circle-xmark remove-file-icon" id="removeFileBtn" title="Remove file"></i>
+                    </div>
+                    
+                    <button type="submit" class="upload-btn">
+                        Submit & Analyze
+                    </button>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

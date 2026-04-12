@@ -1,0 +1,94 @@
+keyword,diagnosis,advice
+chills,Malaria/Flu,Shaking chills suggest infection cover up
+mosquito,Malaria/Dengue,Bite history + fever needs test
+eye,Dengue,Pain behind eyes classic Dengue sign hydrate
+rash,Viral/Dengue,Skin rash with fever monitor platelets
+joint,Chikungunya,Severe joint pain rest take paracetamol
+vomit,Typhoid,Persistent vomiting needs fluids
+stomach,Typhoid,Fever + belly pain antibiotics needed
+night,TB/Lymphoma,Night sweats low fever chest xray
+cough,Flu/Pneumonia,Fever with cough likely viral check oxygen
+sneeze,Flu,Runny nose fever usually seasonal flu
+high,High Grade,Temp > 103F apply cold compress see doctor
+seizure,Febrile,Child seizure from fever go to hospital
+shiver,Rigors,Uncontrollable shaking bacteria in blood
+weak,Viral,Post-fever weakness normal rest 1 week
+headache,Meningitis,Severe head stiff neck fever EMERGENCY
+malaria,Parasite,Needs antimalarial meds do not delay
+dengue,Virus,Watch bleeding gums papaya leaf extract
+typhoid,Bacteria,Salmonella needs antibiotics boil water
+viral,Virus,Antibiotics wont work rest and fluids
+bacterial,Bacteria,Needs antibiotics see doctor
+flu,Influenza,Body aches fever sudden onset
+covid,Virus,Loss of smell fever cough isolate
+pneumonia,Lung Infection,High fever chest pain difficulty breathing
+uti,Infection,Fever burning pee back pain antibiotics
+kidney,Infection,High fever flank pain vomiting ER
+appendix,Infection,Fever right lower belly pain ER
+abscess,Infection,Painful lump fever needs draining
+wound,Infection,Red hot cut fever spreads sepsis risk
+sepsis,Emergency,Confusion low BP fever call 911
+travel,Risk,Fever after travel needs tropical disease check
+tuberculosis,TB,Cough >3 weeks weight loss evening fever
+measles,Rash,High fever koplik spots in mouth rash
+chickenpox,Rash,Itchy blister rash fever isolate
+mumps,Glands,Swollen jaw fever soft food
+rubella,Rash,Mild fever rash dangerous for pregnancy
+roseola,Rash,High fever ends then rash appears
+scarlet,Rash,Strep throat sandpaper rash fever
+rheumatic,Heart,Untreated strep fever damages heart
+ebola,Travel,Bleeding fever travel history ISOLATE
+zika,Mosquito,Mild fever risk to unborn baby
+lyme,Tick Bite,Bullseye rash fever joint pain
+rocky,Tick Bite,Spotted rash fever severe headache
+meningitis,Brain,Stiff neck light hurts eyes fever ER
+encephalitis,Brain,Confusion fever seizure ER
+gastro,Stomach Flu,Fever diarrhea vomit hydration key
+food poisoning,Stomach,Fever cramps after eating bad food
+sunstroke,Heat,High body temp no sweat confusion ER
+heat,Exhaustion,Feverish cool down drink water
+drug,Reaction,New med causing fever stop and call doctor
+cancer,Leukemia,Unexplained recurrent fever see doctor
+autoimmune,Lupus,Fever joint pain rash see specialist
+teething,Baby,Low grade fever gum pain normal
+vaccine,Reaction,Mild fever after shot normal paracetamol
+ear,Infection,Toddler pulling ear fever antibiotics
+throat,Strep,White patches fever pain antibiotics
+sinus,Infection,Face pain green snot fever
+bronchitis,Chest,Low fever cough steam helps
+mononucleosis,Kissing Disease,Fatigue swollen glands fever rest
+hepatitis,Liver,Yellow eyes fever nausea
+hiv,Seroconversion,Flu like illness weeks after exposure
+paracetamol,Medication,Lowers fever safe for most
+ibuprofen,Medication,Lowers fever take with food
+aspirin,Warning,Do not give to kids Reye Syndrome risk
+antibiotic,Medication,Only for bacteria finish course
+water,Hydration,Fever dries body drink constantly
+ors,Hydration,Replaces salts lost in sweat
+sponge,Cooling,Warm water sponge bath do not use ice
+ice,Warning,Ice water causes shivering raises temp
+blanket,Comfort,Use light sheet heavy blanket traps heat
+rest,Recovery,Sleep heals body do not work
+thermometer,Tool,Check temp record it for doctor
+digital,Tool,Best for accuracy under tongue or arm
+forehead,Tool,Easy scan less accurate
+rectal,Tool,Most accurate for babies
+armpit,Tool,Add 1 degree to reading
+98.6,Normal,Average body temp
+99,Low Grade,Mild elevation watch it
+100,Fever,Body fighting infection
+102,High,Needs medication
+104,Very High,Danger zone see doctor
+105,Critical,Brain damage risk emergency
+delirium,Symptom,Confusion from heat cool down
+hallucination,Symptom,Seeing things high fever ER
+sweat,Breaking,Fever dropping change clothes
+appetite,Loss,Normal eat bland food toast soup
+soup,Food,Chicken soup helps hydration and salt
+fruit,Food,Vitamin C helps immune system
+tea,Drink,Ginger tea settles stomach
+honey,Soother,Helps throat cough
+lemon,Vitamin,Boosts immunity
+garlic,Antibacterial,Natural antibiotic helps fight
+ginger,Anti-inflammatory,Helps chills and nausea
+turmeric,Immunity,Golden milk helps recovery.

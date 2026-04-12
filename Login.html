@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Login - Body Meter</title>
+    <link rel="stylesheet" href="StyleLogin.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-header">
+            <i class="fa-solid fa-user-doctor logo-icon"></i>
+            <h1>Medical Portal</h1>
+            <p>Please login to access Patient Data</p>
+        </div>
+
+        <div class="input-group">
+            <label>Email ID</label>
+            <input type="email" id="loginEmail" placeholder="doctor@hospital.com">
+        </div>
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" id="loginPass" placeholder="Enter Password">
+        </div>
+
+        <button class="btn-login" onclick="attemptLogin()">
+            LOGIN <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <p class="signup-link">
+            New User? <a href="#" onclick="openPopup()">Create an Account</a>
+        </p>
+    </div>
+
+    <div id="signupOverlay" class="overlay">
+        <div class="popup-box">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2>Create Account</h2>
+            <p>Register new medical staff</p>
+
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" id="signName" placeholder="Dr. John Doe">
+            </div>
+            <div class="input-group">
+                <label>Email ID</label>
+                <input type="email" id="signEmail" placeholder="email@example.com">
+            </div>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" id="signPass" placeholder="Create Password">
+            </div>
+
+            <button class="btn-signup" onclick="attemptSignup()">Sign Up</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

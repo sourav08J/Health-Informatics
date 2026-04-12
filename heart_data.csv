@@ -1,0 +1,152 @@
+keyword,diagnosis,advice
+pain,Potential Heart Attack,⚠️ Call Emergency sit down take Aspirin
+chest,Potential Heart Attack,⚠️ Call Emergency sit down take Aspirin
+squeeze,Heart Ischemia,⚠️ Warning: Classic attack sign seek help now
+pressure,Unstable Angina,⚠️ Warning: Heavy pressure needs urgent checkup
+crushing,Severe Heart Attack,⚠️ EMERGENCY: Call Ambulance immediately
+burning,Heartburn or Heart Attack,If antacids fail in 10 mins go to ER
+tightness,Angina Pectoris,Sensation of tight band around chest see doctor
+heaviness,Heart Failure/Angina,Feeling of weight on chest is warning sign
+fullness,Indigestion or Attack,Stomach fullness can be silent attack sign
+stab,Pericarditis or Attack,Sharp pain worsens when breathing see doctor
+arm,Heart Attack Sign,⚠️ Left arm pain is major warning call 911
+shoulder,Referred Pain,Shoulder pain can be heart-related check pulse
+jaw,Referred Pain,⚠️ Left jaw pain is attack sign get checked
+neck,Referred Pain,⚠️ Pain spreading to neck is dangerous seek help
+back,Referred Pain,Pain between shoulder blades common in women
+stomach,Referred Pain,Upper belly pain can be heart attack do not ignore
+fast,High Heart Rate,Sit down breathe deeply avoid coffee
+racing,High Heart Rate,Sit down breathe deeply drink water
+pounding,Palpitations,Rest 5 mins if continues go to ER
+slow,Low Heart Rate,Lie down feet up if dizzy see doctor
+skip,Skipped Beats,Likely stress/caffeine rest if frequent see doctor
+flutter,Atrial Fibrillation,Risk of stroke see doctor for meds
+irregular,Arrhythmia,Pulse is uneven needs ECG immediately
+murmur,Valve Issue,Whooshing sound needs Echocardiogram
+valve,Heart Valve Disease,Leaky/stiff valve watch for breathlessness
+dizzy,Low BP or Arrhythmia,Sit down to prevent fainting drink water
+faint,Heart Block/Drop,⚠️ Fainting is serious go to hospital
+lightheaded,Pre-Fainting,Lie flat check BP if possible
+confused,Hypoxia/Shock,Brain lacking blood call Emergency
+palpitation,Arrhythmia,Cut caffeine if >1 hour go to ER
+block,Artery Blockage,Diet change needed see cardiologist for angiogram
+clog,High Cholesterol,Arteries narrowing needs statins and diet change
+breathing,Heart Failure,Sit upright if lips blue call emergency
+short,Breathlessness,If breathless lying down check for Heart Failure
+gasping,Fluid in Lungs,Waking up gasping is sign of heart weakness see doctor
+cough,Heart Cough,Persistent pink/white cough means fluid in lungs
+wheeze,Fluid in Lungs,Whistling breath can signal heart failure
+swelling,Heart Failure,Fluid retention cut salt see doctor in 24h
+ankles,Swollen Ankles,Heart struggling to pump needs checkup
+weight,Fluid Gain,Sudden gain (1kg/day) is Heart Failure sign
+attack,Heart Attack,⚠️ EMERGENCY: Call Ambulance do not drive
+arrest,Cardiac Arrest,⚠️ Start CPR find AED call Emergency
+stroke,Stroke Warning,Face drooping arm weak speech slurred call 911
+sweat,Cold Sweat,⚠️ Sudden sweating is major attack sign
+nausea,Silent Attack,Nausea + chest discomfort is warning sign
+vomit,Cardiac Event,Unexplained vomiting needs pulse check
+fatigue,Weak Heart,Extreme tiredness suggests pumping issue
+weakness,Heart Failure,Sudden weakness is warning rest now
+blue,Low Oxygen,⚠️ CRITICAL: Oxygen not circulating call Emergency
+pale,Shock,Blood flow failing keep warm call Emergency
+high bp,High BP,Reduce salt/stress take meds silent killer
+low bp,Low BP,Drink salt water stand up slowly
+hypertension,High BP,Damages arteries needs daily meds
+hypotension,Low BP,If confused/cold call Emergency
+cholesterol,Plaque Buildup,Eat oats/fiber avoid fried food
+obesity,Heart Strain,5kg weight loss helps heart significantly
+smoke,Heart Damage,Clots blood quitting is best cure
+alcohol,Weak Heart Muscle,Poisons heart muscle stop drinking
+stress,Stress Heart,Deep breathing stress mimics heart attacks
+anxiety,Racing Heart,Rule out physical issue breathe slow
+panic,Panic Attack,Racing heart + fear treat as heart attack if doubting
+history,Genetic Risk,Start checkups 10 years earlier than parents
+diabetes,Vessel Damage,High sugar rots arteries control glucose
+sleep,Sleep Apnea,Stop breathing at night strains heart see doctor
+snore,Apnea Risk,Loud snoring linked to high BP
+legs,PAD (Circulation),Pain walking arteries clogged
+cramps,Poor Circulation,Leg cramps indicate Peripheral Artery Disease
+aspirin,Emergency Med,Chew 325mg if suspecting attack
+nitro,Angina Med,Take for chest pain if 3 doses fail call 911
+stent,Stent Care,Take blood thinners daily do not skip
+bypass,Surgery Recovery,Watch for fever do cardiac rehab
+pacemaker,Device Check,Avoid magnets if dizzy wire may be loose
+salt,Diet Warning,Sodium raises BP limit to 1tsp/day
+water,Hydration,Dehydration strains heart drink water
+cold,Weather Trigger,Cold air constricts arteries dress warm
+heat,Weather Trigger,Heat works heart harder stay hydrated
+magnesium,Heart Mineral,Helps rhythm eat nuts spinach bananas
+potassium,Heart Mineral,Regulates BP eat potatoes avocado yogurt
+omega,Healthy Fats,Reduces inflammation eat salmon walnuts
+fiber,Cholesterol Control,Oats and beans lower bad cholesterol
+sugar,Inflammation,Excess sugar damages blood vessels cut sweets
+trans fat,Artery Clogger,Avoid margarine and processed snacks
+garlic,Blood Pressure,Natural mild blood thinner good for heart
+berries,Antioxidants,Blueberries strawberries protect heart vessels
+chocolate,Dark Chocolate,70% cocoa in moderation helps BP
+coffee,Caffeine,Limit to 2 cups if you have palpitations
+tea,Green Tea,Good for arteries contains catechins
+soda,Sugar Spike,High fructose corn syrup harms heart avoid
+energy drink,Caffeine Overdose,Can cause dangerous arrhythmia avoid
+run,Cardio Exercise,30 mins daily strengthens heart muscle
+walk,Active Recovery,Great for recovering patients start slow
+swim,Cardio Exercise,Easy on joints good for heart endurance
+yoga,Stress Relief,Reduces BP and cortisol helps heart
+sit,Sedentary Risk,Sitting >6hrs increases heart risk move often
+stand,Circulation,Standing helps blood flow better than sitting
+fly,DVT Risk,Wear compression socks on long flights
+drive,Stress Trigger,Traffic stress raises BP play calming music
+sex,Physical Activity,Safe for most stable heart patients ask doctor
+angry,Stress Trigger,Sudden anger can trigger attack count to 10
+grief,Broken Heart,Emotional shock can stun heart muscle rest
+laugh,Vessel Health,Laughter relaxes blood vessels good for heart
+lonely,Depression Risk,Isolation hurts heart health connect with friends
+gums,Oral Health,Gum disease bacteria can infect heart valve
+teeth,Infection Risk,Brush daily to prevent endocarditis
+flu,Infection Risk,Flu strains heart get vaccinated yearly
+covid,Myocarditis Risk,Watch for lingering palpitations after virus
+altitude,Oxygen Level,High altitude strains weak heart take it easy
+pollution,Lung/Heart Risk,Fine dust enters blood wear mask
+humidity,Heat Stress,High humidity prevents sweating stay cool
+winter,Constriction,Blood thickens in cold keep warm
+morning,BP Spike,Heart attacks common in AM take meds at night
+night,Apnea Risk,Gasping at night needs CPAP machine
+snoring,Hypertension Link,Treat snoring to lower blood pressure
+betablocker,Medication,Slows heart rate do not stop suddenly
+statins,Medication,Lowers cholesterol watch for muscle pain
+ace,Medication,Relaxes veins for BP watch for dry cough
+diuretic,Medication,Removes fluid pee more take in morning
+blood thinner,Medication,Prevents clots watch for bruising
+warfarin,Medication,Requires regular blood tests watch Vitamin K
+digoxin,Medication,Strengthens heartbeat watch for nausea
+amiodarone,Rhythm Med,Controls AFib watch for thyroid issues
+clopidogrel,Antiplatelet,Keeps stents open do not miss dose
+nitro,Emergency Med,Keep fresh replace every 6 months
+aorta,Main Artery,Tearing pain in back needs ER (Dissection)
+atrium,Upper Chamber,Fluttering usually starts here (AFib)
+ventricle,Lower Chamber,Pumping chamber weakness is Heart Failure
+veins,Return Flow,Swollen neck veins mean fluid overload
+artery,Supply Flow,Hardened arteries raise BP
+capillaries,Tiny Vessels,Cold fingers mean poor tiny vessel flow
+ecg,Heart Test,Checks rhythm and electrical signals
+echo,Heart Test,Ultrasound checks valve and pump function
+holter,Monitor,24h monitor catches hidden arrhythmias
+stress test,Exertion Check,Checks heart under load treadmill
+troponin,Blood Test,High levels confirm heart attack
+ck-mb,Blood Test,Enzyme released during heart damage
+bnp,Blood Test,High levels confirm Heart Failure
+lipid,Cholesterol Test,Checks LDL HDL and Triglycerides
+crp,Inflammation Test,High CRP indicates vessel inflammation
+angiogram,Xray Test,Dye test finds blocked arteries
+mri,Imaging,Detailed heart muscle picture
+ct scan,Imaging,Checks calcium score in arteries
+ablation,Procedure,Burns bad electrical pathways cures AFib
+defibrillator,Implant,Shocks heart if it stops (ICD)
+transplant,Surgery,Last resort for severe failure
+rehab,Recovery,Supervised exercise after attack is vital
+insurance,Coverage,Check if policy covers cardiac rehab
+ambulance,Emergency,Faster than driving gets care started immediately
+cpr,Life Support,Push hard and fast in center of chest
+aed,Defibrillator,Follow voice prompts saves lives
+pulse,Vital Sign,Normal is 60-100 check at wrist
+bp monitor,Home Device,Check BP morning and night log it.

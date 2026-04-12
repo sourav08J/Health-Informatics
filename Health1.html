@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Biometrics Entry</title>
+    
+    <link rel="stylesheet" href="Style1.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-container">
+        
+        <div class="header-section">
+            <h1>Patient Biometrics Entry</h1>
+            <p>Enter details to calculate health metrics (BMI, BMR & BP):</p>
+        </div>
+
+        <form id="health-form">
+            
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="patientName">Patient Name:</label>
+                    <input type="text" id="patientName" placeholder="Enter full name">
+                </div>
+                <div class="input-group">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" placeholder="123-456-7890">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="input-group full-width">
+                    <label for="bloodGroup">Blood Group:</label>
+                    <select id="bloodGroup">
+                        <option value="Unknown">Select...</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="gender">Gender:</label>
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">others</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="age">Age (years):</label>
+                    <input type="number" id="age" placeholder="e.g. 25">
+                </div>
+                <div class="input-group">
+                    <label for="height">Height (cm):</label>
+                    <input type="number" id="height" placeholder="e.g. 170">
+                </div>
+                <div class="input-group">
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" id="weight" placeholder="e.g. 70">
+                </div>
+            </div>
+
+            <div class="input-group full-width">
+                <label for="bpInput">Blood Pressure (Optional):</label>
+                <input type="text" id="bpInput" placeholder="e.g. 120/80">
+                <small style="color: #7f8c8d; font-size: 0.8rem;">Format: Systolic/Diastolic</small>
+            </div>
+
+            <button type="submit" id="analyzeBtn" class="action-btn analyze-btn">
+                <i class="fa-solid fa-calculator"></i> Analyze Body Metrics
+            </button>
+
+        </form>
+
+        <div id="results-section" style="display: none;">
+            <div class="divider"></div>
+            <h2>Analysis Results</h2>
+            
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-label">BMI Score</div>
+                    <div class="result-value" id="bmi-result">--</div>
+                    <div id="bmi-evaluation" class="evaluation-text">--</div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-label">BMR (Metabolism)</div>
+                    <div class="result-value" id="bmr-result">--</div>
+                    <div class="evaluation-text status-neutral">Calories/Day</div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-label">Ideal Weight</div>
+                    <div class="result-value" id="ideal-weight">--</div>
+                    <div class="evaluation-text status-good">Healthy Range</div>
+                </div>
+
+                <div class="result-card" id="bp-box" style="display: none;">
+                    <div class="result-label">Blood Pressure</div>
+                    <div class="result-value" id="bp-result">--</div>
+                    <div id="bp-evaluation" class="evaluation-text">--</div>
+                </div>
+            </div>
+
+            <button id="submitBtn" class="action-btn submit-btn">
+                <i class="fa-solid fa-floppy-disk"></i> Save & Open Dashboard
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script1.js"></script>
+
+</body>
+</html>

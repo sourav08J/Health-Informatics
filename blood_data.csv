@@ -1,0 +1,103 @@
+keyword,diagnosis,advice
+pale,Anemia,Eat spinach and red meat take iron supplements
+fatigue,Anemia/Low BP,Chronic tiredness means low oxygen check Hemoglobin
+dizzy,Hypotension,Drink salt water and sit down immediately
+bruise,Platelet Disorder,Unexplained bruising needs blood test check platelets
+bleed,Hemophilia,If bleeding does not stop in 10 mins go to ER
+clot,DVT Warning,Pain in leg leg red and hot go to ER
+swollen,Lymphoma,Swollen lymph nodes painless needs doctor check
+fever,Sepsis,Fever with shivering and confusion is blood infection call ER
+red spots,Petechiae,Tiny red dots mean bleeding capillaries see hematologist
+nosebleed,Hypertension,Pinch nose lean forward 10 mins check BP
+iron,Deficiency,Eat meat beans and Vitamin C avoid tea with meals
+weak,Anemia,Generalized weakness is #1 sign of low hemoglobin
+cold,Poor Circulation,Cold hands feet means blood not reaching extremities
+period,Menorrhagia,Heavy bleeding causes anemia see gynecologist
+yellow,Jaundice,Yellow skin eyes means red cells breaking down
+thirst,Hyperglycemia,Extreme thirst signals high sugar or blood loss
+faint,Vasovagal,Brain lacks oxygen lie down legs up
+b12,Vitamin Deficiency,Numbness in fingers eat eggs and meat
+folate,Vitamin Deficiency,Eat leafy greens crucial for red blood cells
+doner,Blood Donation,Drink water eat before donating avoid alcohol
+group a,Blood Type,Can donate to A and AB receive from A and O
+group b,Blood Type,Can donate to B and AB receive from B and O
+group o,Universal Donor,O Negative can save anyone vital for emergencies
+plasma,Blood Component,Yellow fluid carries nutrients stay hydrated
+wbc,Immune System,High count means infection low count means risk
+rbc,Oxygen Carrier,Low count is anemia high count is polycythemia
+hemoglobin,Oxygen Protein,Low levels cause shortness of breath
+hematocrit,Blood Volume,Percentage of red cells checks hydration
+platelets,Clotting Cells,Low count risks bleeding high count risks clots
+ferritin,Iron Storage,Low ferritin means iron stores are empty
+leukemia,Blood Cancer,Fatigue fever bone pain needs oncologist
+lymphoma,Lymph Cancer,Swollen nodes night sweats weight loss
+myeloma,Plasma Cancer,Bone pain kidney issues needs specialist
+sickle,Genetic Disease,Pain crises need fluids and pain meds
+thalassemia,Genetic Disease,Need regular blood transfusions and iron chelation
+malaria,Parasite,Fever chills destroys red cells take meds
+dengue,Viral Infection,Drops platelet count watch for bleeding gums
+hiv,Viral Infection,Attacks white blood cells get tested regularly
+hepatitis,Liver Virus,Spread via blood avoid sharing needles
+sepsis,Blood Poisoning,Life threatening infection needs IV antibiotics
+embolism,Moving Clot,Clot moves to lungs causes chest pain call 911
+thrombosis,Stationary Clot,Leg pain swelling needs blood thinners
+varicose,Vein Issue,Twisted veins wear compression stockings
+spider veins,Vein Issue,Small purple lines cosmetic but check circulation
+vasculitis,Inflammation,Inflamed blood vessels causes spots see doctor
+cholesterol,Lipid Health,High levels clog arteries eat oats
+triglycerides,Fat in Blood,High levels from sugar and alcohol reduce carbs
+sugar,Glucose,High blood sugar damages vessels over time
+salt,BP Trigger,Sodium raises blood pressure limit intake
+water,Volume,Dehydration thickens blood drink 3 liters daily
+alcohol,Bone Marrow,Toxic to blood cell production stop drinking
+smoke,Clot Risk,Smoking makes blood sticky causes strokes
+aspirin,Blood Thinner,Prevents clots ask doctor before daily use
+warfarin,Blood Thinner,Requires regular INR tests watch Vitamin K
+heparin,Blood Thinner,Used in hospital for clots dissolves blockage
+transfusion,Procedure,Receiving blood needs matching type
+dialysis,Kidney Filter,Cleans blood when kidneys fail
+erythropoietin,Hormone,Stimulates bone marrow to make red cells
+spinach,Iron Food,Good plant iron add lemon to absorb better
+liver,Iron Food,Best source of heme iron for anemia
+beef,Iron Food,Red meat boosts hemoglobin quickly
+lentils,Iron Food,Great for vegetarians fighting anemia
+beetroot,Blood Flow,Nitrates improve blood flow and lower BP
+pomegranate,Blood Flow,Boosts hemoglobin and circulation
+hydration,Volume Control,Prevents fainting and low BP
+elevation,Circulation,Raise legs to help blood return to heart
+compression,Circulation,Socks prevent clots on long flights
+movement,Circulation,Walk every hour to prevent DVT
+standing,BP Drop,Stand up slowly to avoid head rush
+meds,Side Effects,Some drugs lower blood counts check labels
+chemo,Treatment,Kills blood cells watch for infection
+radiation,Treatment,Can damage bone marrow
+stem cell,Transplant,Cure for leukemia replaces marrow
+neutropenia,Low WBC,High risk of infection wear mask wash hands
+polycythemia,High RBC,Thick blood causes headaches need phlebotomy
+cyanosis,Low Oxygen,Blue skin means blood not oxygenated call ER
+shock,Circulation Fail,Pale cold clammy skin call 911
+hemorrhage,Severe Bleeding,Apply pressure tourniquet if limb call 911
+internal,Bleeding,Black stool or vomiting coffee grounds go to ER
+bruising,Easy Bruising,Check Vitamin C and Platelets
+gums,Bleeding,Vitamin C deficiency or low platelets
+petechiae,Rash,Red pinpoints mean platelet issue
+purpura,Rash,Purple spots bleeding under skin see doctor
+spleen,Organ,Filters blood pain here means trouble
+marrow,Factory,Spongy bone tissue makes all blood cells
+type match,Safety,Wrong blood type causes fatal reaction
+rhesus,Factor,Positive or Negative matters for pregnancy
+antibodies,Defense,Proteins that fight infection
+antigens,Markers,Tags on cells that determine blood type
+poisons,Toxins,Chemicals can destroy blood cells
+venom,Snake Bite,Some snakes destroy clotting ability call ER
+lead,Poisoning,Causes anemia especially in children
+mercury,Poisoning,From fish damages blood cells
+arsenic,Poisoning,Destroys red blood cells
+altitude,Adaptation,Body makes more RBCs in mountains
+training,Athletes,Cardio increases blood volume
+plasma donation,Process,Takes longer helps burn victims
+platelet donation,Process,Helps cancer patients stop bleeding
+cord blood,Stem Cells,Saved from birth for future cures
+iv fluids,Volume,Saline restores pressure after blood loss
+o negative,Emergency,Universal donor for trauma cases
+ab positive,Universal Plasma,Can give plasma to anyone.

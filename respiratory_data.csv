@@ -1,0 +1,88 @@
+keyword,diagnosis,advice
+cough,Bronchitis,Dry cough >3 weeks needs xray
+wheeze,Asthma/COPD,Whistling sound use inhaler
+short,Asthma/Heart,Shortness of breath sit upright
+chest,Pneumonia,Tightness or pain on deep breath
+mucus,Infection,Green yellow bacterial clear viral
+blood,TB/Cancer,Coughing up blood EMERGENCY
+night,Asthma,Cough worsening at night uncontrolled
+smoke,COPD,Lung damage permanent stop smoking
+dust,Allergy,Avoid triggers take antihistamine
+fever,Pneumonia,Cough high fever shaking antibiotics
+blue,Hypoxia,Lips blue low oxygen Hospital
+gasp,Asthma Attack,Cannot speak sentences Ambulance
+inhaler,Asthma,Carry rescue inhaler rinse mouth
+cold,Virus,Runny nose sore throat salt gargle
+throat,Pharyngitis,Sore throat warm honey lemon
+sneeze,Allergy,Frequent sneezing pollen allergy
+pain,Pleurisy,Sharp pain breathing in inflammation
+copd,Emphysema,Air sacs damaged pursed lip breathing
+bronchitis,Inflammation,Airways swollen stop smoking
+pneumonia,Fluid,Lungs filled with fluid antibiotics
+tuberculosis,TB,Weight loss night sweats cough blood
+cancer,Tumor,Chronic cough hoarseness weight loss
+asthma,Constriction,Airways narrow trigger avoidance
+attack,Emergency,Blue lips confusion call 911
+anaphylaxis,Allergy,Throat closing swelling EpiPen 911
+croup,Child,Barking seal cough steam bathroom
+whooping,Pertussis,Violent coughing fits gasping
+apnea,Sleep,Stop breathing at night CPAP
+snore,Obstruction,Airway blocked see ENT
+sinusitis,Infection,Face pain green mucus antibiotic
+rhinitis,Allergy,Runny nose itchy eyes pill
+deviated,Septum,Nose blockage surgery may help
+polyp,Growth,Nose growth blocks air spray
+tonsillitis,Infection,Swollen glands white spots
+laryngitis,Voice,Lost voice rest vocal cords
+epiglottitis,Emergency,Drooling breathing trouble 911
+choking,Emergency,Heimlich maneuver immediately
+asbestos,Exposure,Mesothelioma risk see doctor
+silicosis,Exposure,Stone dust lung damage mask
+mold,Allergy,Black mold causes chronic cough
+pollen,Allergy,Seasonal sneezing stay indoors
+pet,Allergy,Dander triggers asthma clean house
+cockroach,Allergy,Droppings trigger asthma
+ozone,Irritant,Smog hurts lungs stay inside
+fumes,Chemical,Bleach ammonia lung burn ventilate
+vape,Lung Injury,Chemicals damage lung tissue quit
+hookah,Risk,More tar than cigarettes quit
+cigar,Risk,Mouth and throat cancer risk
+marijuana,Risk,Smoke damages lung hairs edibles safer
+nicotine,Addiction,Gum or patch helps quit
+oxygen,Therapy,Low saturation needs tank
+pulse ox,Tool,Finger monitor normal 95-100
+90,Low Oxygen,Warning zone breathe deep
+85,Critical,Brain damage risk Emergency
+spirometry,Test,Measures lung volume blow hard
+xray,Imaging,Sees pneumonia and tumors
+ct scan,Imaging,Detailed lung view cancer check
+bronchoscopy,Procedure,Camera in lung biopsy
+nebulizer,Treatment,Mist machine for asthma
+steroid,Medication,Reduces swelling rinse mouth
+albuterol,Rescue,Opens airways fast shaky hands
+antibiotic,Medication,Kills bacteria not viruses
+antihistamine,Medication,Dries mucus stops sneezing
+decongestant,Medication,Clears nose raises BP
+expectorant,Medication,Loosens mucus drink water
+cough drop,Soother,Numbs throat temporary
+honey,Natural,Best cough syrup for kids
+steam,Natural,Loosens congestion shower
+humidifier,Home,Moist air helps dry cough
+filter,Home,HEPA filter removes dust
+mask,Protection,N95 blocks virus and dust
+exercise,Lung Health,Cardio expands lung capacity
+swim,Lung Health,Best exercise for asthma
+yoga,Breathing,Pranayama strengthens lungs
+singing,Therapy,Improves breath control
+posture,Breathing,Slouching compresses lungs sit up
+pursed lip,Technique,Breathe out slow helps COPD
+diaphragm,Technique,Belly breathing efficient
+anxiety,Hyperventilation,Paper bag breathing slow down
+panic,Shortness,Feeling smothered check pulse
+hiccup,Spasm,Hold breath drink water
+yawn,Reflex,Body needs oxygen or cooling
+sigh,Reflex,Reinflates collapsed alveoli
+pollution,Risk,Check air quality index
+radon,Gas,Basement gas causes cancer test home
+secondhand,Smoke,Causes asthma in kids avoid
+wood,Smoke,Fireplace smoke irritates lungs.

@@ -1,0 +1,395 @@
+/* ============================================================
+   BODY METER — MEDICAL PORTAL
+   Theme: Clinical Luxury — deep navy, cold white, surgical gold
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Mono:wght@300;400&display=swap');
+
+/* ─── TOKENS ─────────────────────────────────────────── */
+:root {
+  --navy:      #0b1628;
+  --navy-mid:  #132035;
+  --navy-card: #172540;
+  --border:    rgba(255,255,255,0.07);
+  --gold:      #c9a94b;
+  --gold-dim:  rgba(201,169,75,0.18);
+  --ice:       #e8eef5;
+  --muted:     rgba(232,238,245,0.45);
+  --danger:    #e05c5c;
+  --success:   #4caf87;
+  --radius:    14px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ─── RESET / BASE ───────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Mono', monospace;
+  background-color: var(--navy);
+  background-image:
+    radial-gradient(ellipse 80% 60% at 70% 10%, rgba(201,169,75,0.07) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 10% 90%, rgba(19,32,53,0.9) 0%, transparent 70%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 39px,
+      rgba(255,255,255,0.015) 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 39px,
+      rgba(255,255,255,0.015) 40px
+    );
+  color: var(--ice);
+  padding: 24px;
+}
+
+/* ─── CARD ───────────────────────────────────────────── */
+.login-container {
+  width: 100%;
+  max-width: 440px;
+  background: var(--navy-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 52px 44px 44px;
+  box-shadow:
+    0 0 0 1px rgba(201,169,75,0.08),
+    0 32px 80px rgba(0,0,0,0.55),
+    0 8px 24px rgba(0,0,0,0.3);
+  animation: cardIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  position: relative;
+  overflow: hidden;
+}
+
+/* gold top bar */
+.login-container::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 0%, var(--gold) 40%, #e8c96d 60%, transparent 100%);
+}
+
+/* subtle inner glow */
+.login-container::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  background: radial-gradient(ellipse 60% 40% at 50% 0%, rgba(201,169,75,0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(28px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ─── HEADER ─────────────────────────────────────────── */
+.login-header {
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeUp 0.6s 0.15s both;
+}
+
+.logo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  color: var(--gold);
+  background: var(--gold-dim);
+  border: 1px solid rgba(201,169,75,0.3);
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 24px rgba(201,169,75,0.15);
+}
+
+.login-header h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--ice);
+  margin-bottom: 6px;
+}
+
+.login-header p {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ─── INPUT GROUP ────────────────────────────────────── */
+.input-group {
+  margin-bottom: 20px;
+  animation: fadeUp 0.6s 0.25s both;
+}
+
+.input-group label {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 13px 16px;
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  color: var(--ice);
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition), background var(--transition);
+}
+
+.input-group input::placeholder {
+  color: rgba(232,238,245,0.22);
+}
+
+.input-group input:focus {
+  border-color: rgba(201,169,75,0.5);
+  background: rgba(255,255,255,0.07);
+  box-shadow: 0 0 0 3px rgba(201,169,75,0.08), inset 0 1px 0 rgba(255,255,255,0.04);
+}
+
+.input-group input:hover:not(:focus) {
+  border-color: rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.055);
+}
+
+/* ─── LOGIN BUTTON ───────────────────────────────────── */
+.btn-login {
+  width: 100%;
+  margin-top: 8px;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #b8922e 0%, #d4ab4a 50%, #c9a94b 100%);
+  border: none;
+  border-radius: 8px;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--navy);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition), filter var(--transition);
+  box-shadow: 0 4px 20px rgba(201,169,75,0.3);
+  animation: fadeUp 0.6s 0.35s both;
+}
+
+.btn-login::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(201,169,75,0.45);
+  filter: brightness(1.06);
+}
+
+.btn-login:hover::before { opacity: 1; }
+
+.btn-login:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(201,169,75,0.25);
+}
+
+.btn-login i {
+  margin-left: 8px;
+  transition: transform var(--transition);
+}
+
+.btn-login:hover i { transform: translateX(4px); }
+
+/* ─── SIGNUP LINK ────────────────────────────────────── */
+.signup-link {
+  text-align: center;
+  margin-top: 28px;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  animation: fadeUp 0.6s 0.4s both;
+}
+
+.signup-link a {
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(201,169,75,0.3);
+  padding-bottom: 1px;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.signup-link a:hover {
+  color: #e8c96d;
+  border-color: rgba(232,201,109,0.7);
+}
+
+/* ─── OVERLAY ────────────────────────────────────────── */
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 13, 24, 0.82);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.overlay.active,
+.overlay[style*="display: flex"],
+.overlay[style*="display:flex"] {
+  display: flex;
+  animation: overlayIn 0.25s ease both;
+}
+
+@keyframes overlayIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ─── POPUP BOX ──────────────────────────────────────── */
+.popup-box {
+  width: 100%;
+  max-width: 420px;
+  background: var(--navy-card);
+  border: 1px solid rgba(201,169,75,0.15);
+  border-radius: var(--radius);
+  padding: 44px 40px 40px;
+  position: relative;
+  box-shadow:
+    0 0 0 1px rgba(201,169,75,0.06),
+    0 40px 100px rgba(0,0,0,0.7);
+  animation: popIn 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.popup-box::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.94) translateY(16px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.popup-box h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--ice);
+  margin-bottom: 4px;
+  letter-spacing: 0.03em;
+}
+
+.popup-box p {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 30px;
+}
+
+/* ─── CLOSE BUTTON ───────────────────────────────────── */
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-size: 22px;
+  color: var(--muted);
+  cursor: pointer;
+  line-height: 1;
+  transition: color var(--transition), transform var(--transition);
+  font-family: 'DM Mono', monospace;
+  font-weight: 300;
+}
+
+.close-btn:hover {
+  color: var(--ice);
+  transform: rotate(90deg);
+}
+
+/* ─── SIGNUP BUTTON ──────────────────────────────────── */
+.btn-signup {
+  width: 100%;
+  margin-top: 8px;
+  padding: 13px 20px;
+  background: transparent;
+  border: 1px solid rgba(201,169,75,0.5);
+  border-radius: 8px;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition),
+              color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.btn-signup:hover {
+  background: var(--gold-dim);
+  border-color: var(--gold);
+  color: #e8c96d;
+  box-shadow: 0 0 20px rgba(201,169,75,0.15);
+  transform: translateY(-1px);
+}
+
+.btn-signup:active { transform: translateY(0); }
+
+/* ─── UTILITIES ──────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Error / success messages */
+#error-msg {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-top: 12px;
+  min-height: 18px;
+  color: var(--danger);
+}
+
+/* ─── SCROLLBAR ──────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--navy); }
+::-webkit-scrollbar-thumb { background: rgba(201,169,75,0.25); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(201,169,75,0.45); }
+
+/* ─── RESPONSIVE ─────────────────────────────────────── */
+@media (max-width: 480px) {
+  .login-container { padding: 40px 28px 36px; }
+  .popup-box { padding: 36px 24px 32px; }
+  .login-header h1 { font-size: 24px; }
+}

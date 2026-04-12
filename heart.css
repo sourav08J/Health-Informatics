@@ -1,0 +1,115 @@
+#background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100; 
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    filter: brightness(0.5); 
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative; 
+    z-index: 1;
+}
+
+.top-bar {
+
+    background-color: rgba(44, 62, 80, 0.85); 
+    color: white;
+    position: relative; 
+    z-index: 10;
+}
+
+.work-area {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+    border: 1px solid #e1e4e8;
+    position: relative; 
+    z-index: 5;
+}
+
+
+.form-header {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    gap: 15px;
+    color: #e74c3c;
+    font-size:x-large;
+}
+.icon-large { font-size: 2rem; }
+.sub-text { color: black; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+
+.back-btn {
+    background-color: #95a5a6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.back-btn:hover { background-color: #7f8c8d; }
+
+.input-section { margin-bottom: 30px; }
+.input-section label { display: block; font-weight: bold; margin-bottom: 10px; color: black;font-size: large; }
+
+.search-row {
+    display: flex;
+    gap: 10px;
+}
+
+#userQuery {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.1rem;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    outline: none;
+}
+#userQuery:focus { border-color: #e74c3c; }
+
+.ask-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.ask-btn:hover { background-color: #c0392b; }
+
+
+.output-section label { display: block; font-weight: bold; margin-bottom: 10px; color: black;font-size: large; }
+
+.response-box {
+    width: 100%;
+    min-height: 200px; 
+    background-color: #f9f9f9;
+    opacity:0.7;
+    border: 2px solid #ecf0f1;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    color:black;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Analysis Assistant</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="heart.css">
+</head>
+<body>
+    
+    <video autoplay muted loop id="background-video">
+        <source src="heartvid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <header class="top-bar">
+        <div class="data-title">
+            <div class="header-inner">
+                <div class="patient-info">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="p-name" id="pNameDisplay">Loading...</span>
+                </div>
+                <div class="medical-stats">
+                    <div class="stat-item live-box">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="live-indicator"></span> ASSISTANT ACTIVE
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <a href="Health2.html" class="back-btn">← Back to Dashboard</a>
+        
+        <div class="work-area">
+            <div class="form-header">
+                <i class="fa-solid fa-user-doctor icon-large"></i>
+                <h2>Heart Issue Diagnosis</h2>
+            </div>
+            
+            <p class="sub-text">
+                Describe the patient's heart symptoms below to get automatic medical advice.
+            </p>
+
+            <!-- INPUT -->
+            <div class="input-section">
+                <label>Enter Symptom / Query:</label>
+                <div class="search-row">
+                    <input 
+                        type="text" 
+                        id="userQuery" 
+                        placeholder="e.g. chest pain, fast heartbeat, blockage..."
+                    >
+                    <button id="askBtn" class="ask-btn">
+                        <i class="fa-solid fa-paper-plane"></i> Get Advice
+                    </button>
+                </div>
+            </div>
+
+            <!-- ADVICE OUTPUT -->
+            <div class="output-section">
+                <label>System Diagnosis & Advice:</label>
+                <div id="responseBox" class="response-box">
+                    <span style="color: #bdc3c7;">System waiting for input...</span>
+                </div>
+            </div>
+
+            <!-- ✅ NEW MEDICINE SECTION -->
+            <div class="output-section">
+                <label>Recommended Medicines (AI Assisted):</label>
+                <div id="medicineBox" class="response-box">
+                    <span style="color: #bdc3c7;">
+                        Medicine suggestions will appear here...
+                    </span>
+                </div>
+            </div>
+
+            <!-- DISCLAIMER -->
+            <p class="sub-text" style="font-size: 12px; color: #e67e22;">
+                ⚠️ Disclaimer: AI-generated medicine suggestions are for educational purposes only. 
+                Always consult a certified doctor before taking any medication.
+            </p>
+
+        </div>
+    </div>
+
+    <script src="heart.js"></script>
+</body>
+</html>

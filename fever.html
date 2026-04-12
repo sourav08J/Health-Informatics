@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fever Analysis Assistant</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fever.css"> 
+</head>
+<body>
+    
+    <video autoplay muted loop id="background-video">
+        <source src="fevervid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <header class="top-bar">
+        <div class="data-title">
+            <div class="header-inner">
+                <div class="patient-info">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="p-name" id="pNameDisplay">Loading...</span>
+                </div>
+                <div class="medical-stats">
+                    <div class="stat-item live-box">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="live-indicator"></span> TEMPERATURE MONITOR ACTIVE
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <a href="Health2.html" class="back-btn">
+            <i class="fa-solid fa-arrow-left"></i> Dashboard
+        </a>
+        
+        <div class="work-area">
+            
+            <div class="form-header">
+                <div class="icon-wrapper">
+                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                </div>
+                <div class="title-text">
+                    <h2>Fever Analysis</h2>
+                    <p class="sub-text">Body Temperature & Infection Assistant</p>
+                </div>
+            </div>
+            
+            <!-- INPUT -->
+            <div class="input-section">
+                <label>Enter Temperature or Symptom</label>
+                <div class="search-row">
+                    <input 
+                        type="text" 
+                        id="userQuery" 
+                        placeholder="e.g. 102 fever, shivering, night sweats..."
+                    >
+                    <button id="askBtn" class="ask-btn">
+                        Analyze <i class="fa-solid fa-thermometer"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- DIAGNOSIS OUTPUT -->
+            <div class="output-section">
+                <label>Diagnosis Result</label>
+                <div id="responseBox" class="response-box">
+                    <div class="placeholder-content">
+                        <i class="fa-solid fa-fire-flame-simple"></i>
+                        <span>Waiting for temperature data...</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ✅ NEW MEDICINE SECTION (SAME AS HEART) -->
+            <div class="output-section">
+                <label>Recommended Medicines (AI Assisted)</label>
+                <div id="medicineBox" class="response-box">
+                    <span style="color:#bdc3c7;">
+                        Medicine suggestions will appear here...
+                    </span>
+                </div>
+            </div>
+
+            <!-- DISCLAIMER -->
+            <p class="sub-text" style="font-size:12px; color:#e67e22;">
+                ⚠️ Disclaimer: AI-generated medicine suggestions are for educational purposes only.
+                Always consult a certified doctor before taking any medication.
+            </p>
+
+        </div>
+    </div>
+
+    <script src="fever.js"></script>
+</body>
+</html>

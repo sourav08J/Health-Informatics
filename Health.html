@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Login</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Floating background particles -->
+    <div class="bg-particles">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="login-container">
+        <div class="medical-header">
+            <div class="stethoscope-icon">🩺</div>
+            <h1>HEALTH INFORMATICS</h1>
+            <p class="subtitle">Secure Medical Portal</p>
+            <div class="ecg-line">
+                <svg viewBox="0 0 500 100" class="ecg-svg" preserveAspectRatio="none">
+                    <defs>
+                        <linearGradient id="ecgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%"   stop-color="#145a87"/>
+                            <stop offset="50%"  stop-color="#2e90d1"/>
+                            <stop offset="100%" stop-color="#0ea5e9"/>
+                        </linearGradient>
+                    </defs>
+                    <polyline points="0,50 150,50 160,20 170,80 180,50 220,50 230,10 240,90 250,50 350,50 360,30 370,70 380,50 500,50" />
+                </svg>
+            </div>
+        </div>
+
+        <form id="loginForm" autocomplete="off">
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <div class="input-wrapper">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </span>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <div class="input-wrapper">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </span>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <button type="button" class="toggle-password" id="togglePass" aria-label="Show password">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <button type="button" id="loginBtn" class="pulse-button">
+                <span class="btn-text">Log In</span>
+                <span class="btn-loader"></span>
+            </button>
+
+            <div class="divider"><span>or</span></div>
+
+            <button type="button" id="signupBtn" class="Sign-in">
+                <span class="btn-text">Create Account</span>
+                <span class="btn-loader"></span>
+            </button>
+
+            <p id="error-msg"></p>
+        </form>
+
+        <div class="footer-note">
+            Health Informatics System v1.0
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
