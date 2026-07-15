@@ -37,4 +37,4 @@ function copyText() {
     } else {
         alert("Clipboard access not supported in this browser.");
     }
-}
+}// commit change //
