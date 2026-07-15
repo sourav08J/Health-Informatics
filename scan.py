@@ -6,7 +6,9 @@ import time
 
 scan_bp = Blueprint('scan_bp', __name__)
 
-genai.configure(api_key="AIzaSyDFNBHPTC-WvJnarnLAoWi9ojLmT83CNJw")
+genai.configure(
+    api_key=os.getenv("GEMINI_API_KEY")
+)
 
 # --- UPDATED PROMPT: Added 'ai_advice' field ---
 MEDICAL_PROMPT = """
@@ -56,7 +58,7 @@ def analyze_prescription():
                 raw_file = genai.get_file(raw_file.name)
 
             model = genai.GenerativeModel(
-                model_name="gemini-2.5-flash-lite",
+                model_name="gemini-2.5-flash",
                 system_instruction=MEDICAL_PROMPT
             )
             

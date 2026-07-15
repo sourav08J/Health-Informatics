@@ -5,7 +5,9 @@ import os
 # 🔑 CONFIGURE GEMINI API KEY
 # ==========================================
 # Replace the string below with your actual API key from Google AI Studio
-genai.configure(api_key="AIzaSyAGJQT8EBObrEunW6BNfmlk1utj3t2DS-o")
+genai.configure(
+    api_key=os.getenv("GEMINI_API_KEY")
+)
 
 def get_medicine_suggestions(disease, symptoms):
     """
@@ -14,7 +16,7 @@ def get_medicine_suggestions(disease, symptoms):
     """
     try:
         # Using 'gemini-1.5-flash' for speed. You can also use 'gemini-pro'.
-        model = genai.GenerativeModel('gemini-2.5-flash-lite')
+        model = genai.GenerativeModel("gemini-2.5-flash")
         
         # The prompt guides the AI to give safe, formatted output
         prompt = f"""
