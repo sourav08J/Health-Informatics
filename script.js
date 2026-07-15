@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         errorMsg.style.background = "";
         errorMsg.innerText = "";
         errorMsg.className = "";
-    }
+    }//new//
 
     // ---- Ripple effect ----
     function triggerRipple(btn, e) {
